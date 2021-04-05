@@ -1,0 +1,9 @@
+
+POST http://localhost:8080/api/discount/add HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "PC_NC01",
+    "value": 0.2
+}

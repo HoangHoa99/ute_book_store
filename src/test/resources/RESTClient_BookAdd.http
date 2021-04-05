@@ -1,0 +1,14 @@
+
+POST http://localhost:8080/api/book/add HTTP/1.1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "title": "Harry Potter và Hòn đá phù thuỷ",
+    "image": "https://th.bing.com/th/id/OIP.B7isW6H5Rkf21fv3UAkJTwHaLH?pid=ImgDet&rs=1",
+    "author": "JK Rowling",
+    "categoryId": 2,
+    "price": 110000,
+    "inStock": 50,
+    "publisherId": 1
+}
